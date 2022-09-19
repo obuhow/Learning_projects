@@ -1,5 +1,5 @@
 CFLAGS = -Wall -Wextra -Werror
-DIR = ../build
+DIR = .
 
 all: graph
 
