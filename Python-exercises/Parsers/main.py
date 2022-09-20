@@ -10,13 +10,14 @@ def parse_html_obj():
     s = str(html)
     soup = BeautifulSoup(s, 'html.parser')
 
-    table = soup.find('div', attrs={'class': 'tbl'})
+    counter = 0
+    for row in soup.find_all('div', attrs={'class': 'tab th'}):
+            worksheet.write(0, counter, row.string)
+            counter += 1
 
     counter = 0
-    x = counter // 10
-    y = counter % 10
-    for row in soup.find_all('div'):
-            print(counter, row.string, sep=' : ')
+    for row in soup.find_all('div', attrs={'class': 'tab divhref'}):
+            worksheet.write(counter // 9 + 1, counter % 9, row.string)
             counter += 1
 
     workbook.save("table.xls")
