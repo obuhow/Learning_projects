@@ -1,46 +1,30 @@
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
+import xlwt
 
-html = urlopen("https://stepik.org/media/attachments/lesson/209719/2.html").read().decode('utf-8')
-s = str(html)
-list = []
+def parse_html_obj():
+    workbook = xlwt.Workbook(encoding='utf-8')
+    worksheet = workbook.add_sheet("List 1")
 
-a = 0
-b = 0
-while a != -1:
-    a = s.find('<code>', b)
-    b = s.find('</code>', a + 1)
-    list.append(s[a+6:b])
+    html = urlopen("https://www.krpms.ru/catalog/rvd/gidravlicheskie-rukava-rvd/rvd1sn/").read().decode('utf-8')
+    s = str(html)
+    soup = BeautifulSoup(s, 'html.parser')
 
-list.sort()
-i = -1
-counter = 1
-often_words = []
-max = 1
+    table = soup.find('div', attrs={'class': 'tbl'})
 
-for c in list:
-    if list[i] == list[i+1]:
-        counter += 1
-    if list[i] != list[i+1] and counter > 1:
-        if counter >= max:
-            max = counter
-        counter = 1
-    i += 1
-i = -1
-counter = 1
-for c in list:
-    if list[i] == list[i+1]:
-        counter += 1
-    if list[i] != list[i+1] and counter > 1:
-        if counter == max:
-            often_words.append(list[i])
-        counter = 1
-    i += 1
+    counter = 0
+    x = counter // 10
+    y = counter % 10
+    for row in soup.find_all('div'):
+            print(counter, row.string, sep=' : ')
+            counter += 1
 
-a = 0
-while a < len(often_words):
-    print(often_words[a], end=' ')
-    a += 1
+    workbook.save("table.xls")
+
+
+if __name__ == '__main__':
+    parse_html_obj()
+
 
 
 
