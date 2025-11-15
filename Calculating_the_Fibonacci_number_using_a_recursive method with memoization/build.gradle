@@ -1,0 +1,29 @@
+plugins {
+    id("java")
+    id("application")
+}
+
+group = "org.example"
+version = "1.0-SNAPSHOT"
+
+repositories {
+    mavenCentral()
+}
+
+application {
+    mainClass.set("exercise3.Exercise3")
+    applicationDefaultJvmArgs = ['-Djava.awt.headless=true']
+}
+
+run {
+    standardInput = System.in
+}
+
+dependencies {
+    testImplementation(platform("org.junit:junit-bom:5.10.0"))
+    testImplementation("org.junit.jupiter:junit-jupiter")
+}
+
+tasks.test {
+    useJUnitPlatform()
+}
