@@ -3,6 +3,8 @@ package task3;
 import animal.Animal;
 import animal.Dog;
 import animal.Cat;
+import animal.Hamster;
+import animal.GuineaPig;
 import utils.PScanner;
 
 import java.util.Iterator;
@@ -48,21 +50,28 @@ public class Main {
         Animal theAnimal = null;
 	    String name;
 	    int age;
-	    double mass;
 	
 	    if (scanner.hasNext()) {
             switch (scanner.next()) {
                 case "dog": 
                     name = scanner.next();
                     age = scanner.nextPositiveInt();
-                    mass = scanner.nextPositiveDouble();
-                    theAnimal = new Dog(name, age, mass);
+                    theAnimal = new Dog(name, age);
                     break;
                 case "cat":
                     name = scanner.next();
                     age = scanner.nextPositiveInt();
-                    mass = scanner.nextPositiveDouble();
-                    theAnimal = new Cat(name, age, mass);
+                    theAnimal = new Cat(name, age);
+                    break;
+                case "hamster": 
+                    name = scanner.next();
+                    age = scanner.nextPositiveInt();
+                    theAnimal = new Hamster(name, age);
+                    break;
+                case "guinea":
+                    name = scanner.next();
+                    age = scanner.nextPositiveInt();
+                    theAnimal = new GuineaPig(name, age);
                     break;
                 default: throw new InputMismatchException("Incorrect input. Unsupported pet type");
 	        }

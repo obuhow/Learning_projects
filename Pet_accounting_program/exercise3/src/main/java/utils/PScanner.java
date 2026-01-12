@@ -39,6 +39,7 @@ public class PScanner {
 	    }
 	    return result;
     } 
+    
     public boolean hasNext() {
 	    return scanner.hasNext();
     }

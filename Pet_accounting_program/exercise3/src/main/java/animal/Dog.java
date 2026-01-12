@@ -1,20 +1,18 @@
 package animal;
 
-public class Dog extends Animal {	
-    public Dog(String name, int age, double mass) {
-        super(name, age, mass);
+public class Dog extends Animal implements Omnivore {	
+    public Dog(String name, int age) {
+        super(name, age);
     }
 
     @Override
     public String toString() {
-        return String.format("Dog name = %s, age = %d, mass = %.2f, feed = %.2f", getName(),  getAge(), getMass(), getFeedInfoKg());
+        return String.format("Dog name = %s, age = %d. ", getName(),  getAge()) + hunt();
     }
 
-    @Override
-    public double getFeedInfoKg() {
-        return getMass() * 0.3;
+    public String hunt() {
+        return "I can hunt for robbers";
     }
-
 }
 
 

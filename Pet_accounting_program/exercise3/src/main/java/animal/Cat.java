@@ -1,17 +1,16 @@
 package animal;
 
-public class Cat extends Animal {
-    public Cat(String name, int age, double mass) {
-	    super(name, age, mass);
+public class Cat extends Animal implements Omnivore {
+    public Cat(String name, int age) {
+	    super(name, age);
     }
 
     @Override
     public String toString() {
-        return String.format("Cat name = %s, age = %d, mass = %.2f, feed = %.2f", getName(),  getAge(), getMass(), getFeedInfoKg());
+        return String.format("Cat name = %s, age = %d. ", getName(),  getAge()) + hunt();
     }
 
-    @Override
-    public double getFeedInfoKg() {
-        return getMass() * 0.1;
+    public String hunt() {
+        return "I can hunt for mice";
     }
 }
