@@ -1,7 +1,6 @@
 package animal;
 
 public class Hamster extends Animal implements Herbivore {
-  
     public Hamster(String name, int age) {
         super(name, age);
     }

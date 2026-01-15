@@ -14,5 +14,3 @@ public class Dog extends Animal implements Omnivore {
         return "I can hunt for robbers";
     }
 }
-
-
