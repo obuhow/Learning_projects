@@ -10,18 +10,21 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.InputMismatchException;
 import java.util.stream.IntStream;
+import java.util.stream.Collectors;
 import java.util.Objects;
 
 public class Main {
     private static PScanner scanner;
 
     public static void main(String[] args) {
+        List<Animal> pets;
         int numberOfPets;
-	    boolean needRetry;
-	    scanner = new PScanner(System.in);
-	    try {
+        scanner = new PScanner(System.in);
+	
+        try {
             numberOfPets = scanner.nextPositiveInt();
-            IntStream.range(0, numberOfPets).mapToObj(pet -> scanPet()).filter(Objects::nonNull).forEach(System.out::println);
+            pets = IntStream.range(0, numberOfPets).mapToObj(pet -> scanPet()).collect(Collectors.toList());
+            pets.stream().filter(Objects::nonNull).forEach(System.out::println);
         } catch (InputMismatchException e) {
 	        System.err.println(e.getMessage() + ". Please try again");
         }
