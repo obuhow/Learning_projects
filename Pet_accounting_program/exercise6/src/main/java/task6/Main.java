@@ -32,7 +32,6 @@ public class Main {
         } catch (InputMismatchException e) {
 	        System.err.println(e.getMessage() + ". Please try again");
         }
-
     }
 
     public static Animal scanPet() {
