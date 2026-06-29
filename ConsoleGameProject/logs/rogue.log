@@ -1,0 +1,403 @@
+2026-06-29 15:52:23.160 [main] INFO  rogue.model.domain.entities.Level - === Начало генерации уровня 1 ===
+2026-06-29 15:52:23.162 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 0
+2026-06-29 15:52:23.162 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 1
+2026-06-29 15:52:23.164 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 2
+2026-06-29 15:52:23.165 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 3
+2026-06-29 15:52:23.165 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 4
+2026-06-29 15:52:23.166 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 5
+2026-06-29 15:52:23.166 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 6
+2026-06-29 15:52:23.167 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 7
+2026-06-29 15:52:23.167 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 8
+2026-06-29 15:52:23.167 [main] INFO  rogue.model.domain.entities.passages.Passages - Начало генерации проходов
+2026-06-29 15:52:29.034 [main] INFO  rogue.model.domain.entities.characters.Player - Поднят предмет Вежливая просьба
+2026-06-29 15:52:47.901 [main] INFO  rogue.model.domain.entities.characters.Player - Поднят предмет Свиток тайных лесных знаний
+2026-06-29 15:52:53.858 [main] INFO  rogue.model.domain.entities.characters.Player - Поднят предмет Салат из огурцов и помидоров
+2026-06-29 15:52:59.325 [main] INFO  rogue.model.domain.entities.characters.Player - Поднят предмет Свиток закрытых наречий
+2026-06-29 15:53:06.516 [main] INFO  rogue.model.domain.entities.characters.Player - Поднят предмет Свиток закрытых наречий
+2026-06-29 15:53:24.742 [main] INFO  rogue.model.domain.entities.characters.Player - Поднят предмет Свиток осенней тени
+2026-06-29 15:53:25.100 [main] INFO  rogue.model.domain.entities.characters.Player - Начата атака на монстра
+2026-06-29 15:53:25.100 [main] INFO  rogue.model.domain.entities.characters.Player - Пропущена атака в первый ход удара вампира
+2026-06-29 15:53:25.101 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 63 при шансах 53/100
+2026-06-29 15:53:25.309 [main] INFO  rogue.model.domain.entities.characters.Player - Начата атака на монстра
+2026-06-29 15:53:25.309 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 24 при шансах 46/100
+2026-06-29 15:53:25.309 [main] INFO  rogue.model.domain.entities.characters.Player - Посчитана сила удара 42
+2026-06-29 15:53:25.309 [main] INFO  rogue.model.domain.entities.characters.Player - Удар нанесён. Здоровье монстра составляет 13.000000000000007
+2026-06-29 15:53:25.310 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 73 при шансах 53/100
+2026-06-29 15:53:25.480 [main] INFO  rogue.model.domain.entities.characters.Player - Начата атака на монстра
+2026-06-29 15:53:25.480 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 21 при шансах 46/100
+2026-06-29 15:53:25.480 [main] INFO  rogue.model.domain.entities.characters.Player - Посчитана сила удара 75
+2026-06-29 15:53:25.480 [main] INFO  rogue.model.domain.entities.characters.Player - Удар нанесён. Здоровье монстра составляет -61.99999999999999
+2026-06-29 15:53:25.481 [main] INFO  rogue.model.domain.entities.characters.Player - Монстр убит class rogue.model.domain.entities.characters.communicators.Student
+2026-06-29 15:53:25.481 [main] INFO  rogue.model.domain.entities.characters.Player - Поднято 17 золота
+2026-06-29 15:53:31.404 [main] INFO  rogue.model.domain.entities.characters.Player - Начата атака на монстра
+2026-06-29 15:53:31.404 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 11 при шансах 86/100
+2026-06-29 15:53:31.404 [main] INFO  rogue.model.domain.entities.characters.Player - Посчитана сила удара 78
+2026-06-29 15:53:31.404 [main] INFO  rogue.model.domain.entities.characters.Player - Удар нанесён. Здоровье монстра составляет 32.000000000000014
+2026-06-29 15:53:31.404 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 70 при шансах 13/100
+2026-06-29 15:53:31.745 [main] INFO  rogue.model.domain.entities.characters.Player - Начата атака на монстра
+2026-06-29 15:53:31.745 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 28 при шансах 86/100
+2026-06-29 15:53:31.745 [main] INFO  rogue.model.domain.entities.characters.Player - Посчитана сила удара 50
+2026-06-29 15:53:31.745 [main] INFO  rogue.model.domain.entities.characters.Player - Удар нанесён. Здоровье монстра составляет -17.999999999999986
+2026-06-29 15:53:31.745 [main] INFO  rogue.model.domain.entities.characters.Player - Монстр убит class rogue.model.domain.entities.characters.communicators.Communicator
+2026-06-29 15:53:31.745 [main] INFO  rogue.model.domain.entities.characters.Player - Поднято 3 золота
+2026-06-29 15:53:35.319 [main] INFO  rogue.model.domain.entities.Level - === Начало генерации уровня 2 ===
+2026-06-29 15:53:35.320 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 0
+2026-06-29 15:53:35.320 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 1
+2026-06-29 15:53:35.320 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 2
+2026-06-29 15:53:35.320 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 3
+2026-06-29 15:53:35.320 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 4
+2026-06-29 15:53:35.320 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 5
+2026-06-29 15:53:35.320 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 6
+2026-06-29 15:53:35.320 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 7
+2026-06-29 15:53:35.320 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 8
+2026-06-29 15:53:35.320 [main] INFO  rogue.model.domain.entities.passages.Passages - Начало генерации проходов
+2026-06-29 15:53:36.827 [main] INFO  rogue.model.domain.entities.Level - === Начало генерации уровня 3 ===
+2026-06-29 15:53:36.827 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 0
+2026-06-29 15:53:36.827 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 1
+2026-06-29 15:53:36.827 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 2
+2026-06-29 15:53:36.828 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 3
+2026-06-29 15:53:36.828 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 4
+2026-06-29 15:53:36.828 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 5
+2026-06-29 15:53:36.828 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 6
+2026-06-29 15:53:36.828 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 7
+2026-06-29 15:53:36.828 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 8
+2026-06-29 15:53:36.828 [main] INFO  rogue.model.domain.entities.passages.Passages - Начало генерации проходов
+2026-06-29 15:53:43.849 [main] INFO  rogue.model.domain.entities.characters.Player - Поднят предмет Неразборчивая, но приятная похвала
+2026-06-29 15:53:49.143 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 99 при шансах 65/100
+2026-06-29 15:53:49.183 [main] INFO  rogue.model.domain.entities.characters.Player - Начата атака на монстра
+2026-06-29 15:53:49.183 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 20 при шансах 35/100
+2026-06-29 15:53:49.183 [main] INFO  rogue.model.domain.entities.characters.Player - Посчитана сила удара 42
+2026-06-29 15:53:49.183 [main] INFO  rogue.model.domain.entities.characters.Player - Удар нанесён. Здоровье монстра составляет 88.0
+2026-06-29 15:53:49.183 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 86 при шансах 65/100
+2026-06-29 15:53:49.223 [main] INFO  rogue.model.domain.entities.characters.Player - Начата атака на монстра
+2026-06-29 15:53:49.223 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 7 при шансах 35/100
+2026-06-29 15:53:49.224 [main] INFO  rogue.model.domain.entities.characters.Player - Посчитана сила удара 75
+2026-06-29 15:53:49.224 [main] INFO  rogue.model.domain.entities.characters.Player - Удар нанесён. Здоровье монстра составляет 13.0
+2026-06-29 15:53:49.224 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 54 при шансах 65/100
+2026-06-29 15:53:49.304 [main] INFO  rogue.model.domain.entities.characters.Player - Начата атака на монстра
+2026-06-29 15:53:49.304 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 68 при шансах 35/100
+2026-06-29 15:53:49.304 [main] INFO  rogue.model.domain.entities.characters.Player - Посчитана вероятность удара и удар пропущен
+2026-06-29 15:53:49.304 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 25 при шансах 65/100
+2026-06-29 15:53:49.343 [main] INFO  rogue.model.domain.entities.characters.Player - Начата атака на монстра
+2026-06-29 15:53:49.343 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 85 при шансах 35/100
+2026-06-29 15:53:49.344 [main] INFO  rogue.model.domain.entities.characters.Player - Посчитана вероятность удара и удар пропущен
+2026-06-29 15:53:49.344 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 11 при шансах 65/100
+2026-06-29 15:53:49.384 [main] INFO  rogue.model.domain.entities.characters.Player - Начата атака на монстра
+2026-06-29 15:53:49.384 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 72 при шансах 35/100
+2026-06-29 15:53:49.384 [main] INFO  rogue.model.domain.entities.characters.Player - Посчитана вероятность удара и удар пропущен
+2026-06-29 15:53:49.384 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 40 при шансах 65/100
+2026-06-29 15:53:49.424 [main] INFO  rogue.model.domain.entities.characters.Player - Начата атака на монстра
+2026-06-29 15:53:49.424 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 94 при шансах 35/100
+2026-06-29 15:53:49.424 [main] INFO  rogue.model.domain.entities.characters.Player - Посчитана вероятность удара и удар пропущен
+2026-06-29 15:53:49.424 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 97 при шансах 65/100
+2026-06-29 15:53:49.651 [main] INFO  rogue.model.domain.entities.characters.Player - Начата атака на монстра
+2026-06-29 15:53:49.651 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 74 при шансах 35/100
+2026-06-29 15:53:49.651 [main] INFO  rogue.model.domain.entities.characters.Player - Посчитана вероятность удара и удар пропущен
+2026-06-29 15:53:49.652 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 24 при шансах 65/100
+2026-06-29 15:53:50.133 [main] INFO  rogue.model.domain.entities.characters.Player - Начата атака на монстра
+2026-06-29 15:53:50.134 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 55 при шансах 35/100
+2026-06-29 15:53:50.134 [main] INFO  rogue.model.domain.entities.characters.Player - Посчитана вероятность удара и удар пропущен
+2026-06-29 15:53:50.134 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 79 при шансах 65/100
+2026-06-29 15:53:50.306 [main] INFO  rogue.model.domain.entities.characters.Player - Начата атака на монстра
+2026-06-29 15:53:50.306 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 42 при шансах 35/100
+2026-06-29 15:53:50.306 [main] INFO  rogue.model.domain.entities.characters.Player - Посчитана вероятность удара и удар пропущен
+2026-06-29 15:53:50.306 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 75 при шансах 65/100
+2026-06-29 15:53:50.493 [main] INFO  rogue.model.domain.entities.characters.Player - Начата атака на монстра
+2026-06-29 15:53:50.493 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 3 при шансах 35/100
+2026-06-29 15:53:50.493 [main] INFO  rogue.model.domain.entities.characters.Player - Посчитана сила удара 54
+2026-06-29 15:53:50.493 [main] INFO  rogue.model.domain.entities.characters.Player - Удар нанесён. Здоровье монстра составляет -41.0
+2026-06-29 15:53:50.493 [main] INFO  rogue.model.domain.entities.characters.Player - Монстр убит class rogue.model.domain.entities.characters.communicators.Guide
+2026-06-29 15:53:50.493 [main] INFO  rogue.model.domain.entities.characters.Player - Поднято 8 золота
+2026-06-29 15:53:53.144 [main] INFO  rogue.model.domain.entities.characters.Player - Поднят предмет Свиток календарных открытий
+2026-06-29 15:54:07.891 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 55 при шансах 15/100
+2026-06-29 15:54:08.195 [main] INFO  rogue.model.domain.entities.characters.Player - Начата атака на монстра
+2026-06-29 15:54:08.195 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 75 при шансах 84/100
+2026-06-29 15:54:08.195 [main] INFO  rogue.model.domain.entities.characters.Player - Посчитана сила удара 82
+2026-06-29 15:54:08.195 [main] INFO  rogue.model.domain.entities.characters.Player - Удар нанесён. Здоровье монстра составляет 48.0
+2026-06-29 15:54:08.195 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 80 при шансах 15/100
+2026-06-29 15:54:08.405 [main] INFO  rogue.model.domain.entities.characters.Player - Начата атака на монстра
+2026-06-29 15:54:08.406 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 1 при шансах 84/100
+2026-06-29 15:54:08.406 [main] INFO  rogue.model.domain.entities.characters.Player - Посчитана сила удара 79
+2026-06-29 15:54:08.406 [main] INFO  rogue.model.domain.entities.characters.Player - Удар нанесён. Здоровье монстра составляет -31.0
+2026-06-29 15:54:08.406 [main] INFO  rogue.model.domain.entities.characters.Player - Монстр убит class rogue.model.domain.entities.characters.communicators.Communicator
+2026-06-29 15:54:08.406 [main] INFO  rogue.model.domain.entities.characters.Player - Поднято 3 золота
+2026-06-29 15:54:09.416 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 63 при шансах 65/100
+2026-06-29 15:54:09.992 [main] INFO  rogue.model.domain.entities.characters.Player - Начата атака на монстра
+2026-06-29 15:54:09.992 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 52 при шансах 35/100
+2026-06-29 15:54:09.992 [main] INFO  rogue.model.domain.entities.characters.Player - Посчитана вероятность удара и удар пропущен
+2026-06-29 15:54:09.992 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 86 при шансах 65/100
+2026-06-29 15:54:10.171 [main] INFO  rogue.model.domain.entities.characters.Player - Начата атака на монстра
+2026-06-29 15:54:10.171 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 68 при шансах 35/100
+2026-06-29 15:54:10.171 [main] INFO  rogue.model.domain.entities.characters.Player - Посчитана вероятность удара и удар пропущен
+2026-06-29 15:54:10.171 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 70 при шансах 65/100
+2026-06-29 15:54:10.363 [main] INFO  rogue.model.domain.entities.characters.Player - Начата атака на монстра
+2026-06-29 15:54:10.363 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 88 при шансах 35/100
+2026-06-29 15:54:10.363 [main] INFO  rogue.model.domain.entities.characters.Player - Посчитана вероятность удара и удар пропущен
+2026-06-29 15:54:10.363 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 43 при шансах 65/100
+2026-06-29 15:54:10.523 [main] INFO  rogue.model.domain.entities.characters.Player - Начата атака на монстра
+2026-06-29 15:54:10.523 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 60 при шансах 35/100
+2026-06-29 15:54:10.523 [main] INFO  rogue.model.domain.entities.characters.Player - Посчитана вероятность удара и удар пропущен
+2026-06-29 15:54:10.523 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 46 при шансах 65/100
+2026-06-29 15:54:10.719 [main] INFO  rogue.model.domain.entities.characters.Player - Начата атака на монстра
+2026-06-29 15:54:10.720 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 78 при шансах 35/100
+2026-06-29 15:54:10.720 [main] INFO  rogue.model.domain.entities.characters.Player - Посчитана вероятность удара и удар пропущен
+2026-06-29 15:54:10.720 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 83 при шансах 65/100
+2026-06-29 15:54:10.885 [main] INFO  rogue.model.domain.entities.characters.Player - Начата атака на монстра
+2026-06-29 15:54:10.886 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 35 при шансах 35/100
+2026-06-29 15:54:10.886 [main] INFO  rogue.model.domain.entities.characters.Player - Посчитана вероятность удара и удар пропущен
+2026-06-29 15:54:10.886 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 87 при шансах 65/100
+2026-06-29 15:54:11.048 [main] INFO  rogue.model.domain.entities.characters.Player - Начата атака на монстра
+2026-06-29 15:54:11.048 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 43 при шансах 35/100
+2026-06-29 15:54:11.049 [main] INFO  rogue.model.domain.entities.characters.Player - Посчитана вероятность удара и удар пропущен
+2026-06-29 15:54:11.049 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 10 при шансах 65/100
+2026-06-29 15:54:11.386 [main] INFO  rogue.model.domain.entities.characters.Player - Начата атака на монстра
+2026-06-29 15:54:11.387 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 31 при шансах 35/100
+2026-06-29 15:54:11.387 [main] INFO  rogue.model.domain.entities.characters.Player - Посчитана сила удара 72
+2026-06-29 15:54:11.387 [main] INFO  rogue.model.domain.entities.characters.Player - Удар нанесён. Здоровье монстра составляет 58.0
+2026-06-29 15:54:11.387 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 98 при шансах 65/100
+2026-06-29 15:54:11.548 [main] INFO  rogue.model.domain.entities.characters.Player - Начата атака на монстра
+2026-06-29 15:54:11.548 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 11 при шансах 35/100
+2026-06-29 15:54:11.548 [main] INFO  rogue.model.domain.entities.characters.Player - Посчитана сила удара 84
+2026-06-29 15:54:11.548 [main] INFO  rogue.model.domain.entities.characters.Player - Удар нанесён. Здоровье монстра составляет -26.0
+2026-06-29 15:54:11.548 [main] INFO  rogue.model.domain.entities.characters.Player - Монстр убит class rogue.model.domain.entities.characters.communicators.Guide
+2026-06-29 15:54:11.548 [main] INFO  rogue.model.domain.entities.characters.Player - Поднято 5 золота
+2026-06-29 15:54:15.524 [main] INFO  rogue.model.domain.entities.characters.Player - Поднят предмет Свиток быстрорастущих теней
+2026-06-29 15:54:15.565 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 4 при шансах 58/100
+2026-06-29 15:54:15.565 [main] INFO  rogue.model.domain.entities.characters.communicators.Communicator - Силы общаться игрока снижено на 27 до 231.0
+2026-06-29 15:54:16.145 [main] INFO  rogue.model.domain.entities.characters.Player - Начата атака на монстра
+2026-06-29 15:54:16.146 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 19 при шансах 41/100
+2026-06-29 15:54:16.146 [main] INFO  rogue.model.domain.entities.characters.Player - Посчитана сила удара 73
+2026-06-29 15:54:16.146 [main] INFO  rogue.model.domain.entities.characters.Player - Удар нанесён. Здоровье монстра составляет 24.5
+2026-06-29 15:54:16.146 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 85 при шансах 58/100
+2026-06-29 15:54:16.357 [main] INFO  rogue.model.domain.entities.characters.Player - Начата атака на монстра
+2026-06-29 15:54:16.358 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 62 при шансах 41/100
+2026-06-29 15:54:16.358 [main] INFO  rogue.model.domain.entities.characters.Player - Посчитана вероятность удара и удар пропущен
+2026-06-29 15:54:16.358 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 76 при шансах 58/100
+2026-06-29 15:54:16.587 [main] INFO  rogue.model.domain.entities.characters.Player - Начата атака на монстра
+2026-06-29 15:54:16.587 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 60 при шансах 41/100
+2026-06-29 15:54:16.587 [main] INFO  rogue.model.domain.entities.characters.Player - Посчитана вероятность удара и удар пропущен
+2026-06-29 15:54:16.587 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 81 при шансах 58/100
+2026-06-29 15:54:16.780 [main] INFO  rogue.model.domain.entities.characters.Player - Начата атака на монстра
+2026-06-29 15:54:16.781 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 20 при шансах 41/100
+2026-06-29 15:54:16.781 [main] INFO  rogue.model.domain.entities.characters.Player - Посчитана сила удара 77
+2026-06-29 15:54:16.781 [main] INFO  rogue.model.domain.entities.characters.Player - Удар нанесён. Здоровье монстра составляет -52.5
+2026-06-29 15:54:16.781 [main] INFO  rogue.model.domain.entities.characters.Player - Монстр убит class rogue.model.domain.entities.characters.communicators.Networker
+2026-06-29 15:54:16.781 [main] INFO  rogue.model.domain.entities.characters.Player - Поднято 8 золота
+2026-06-29 15:54:18.450 [main] INFO  rogue.model.domain.entities.characters.Player - Начата атака на монстра
+2026-06-29 15:54:18.450 [main] INFO  rogue.model.domain.entities.characters.Player - Пропущена атака в первый ход удара вампира
+2026-06-29 15:54:18.450 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 29 при шансах 58/100
+2026-06-29 15:54:18.490 [main] INFO  rogue.model.domain.entities.characters.Player - Начата атака на монстра
+2026-06-29 15:54:18.491 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 50 при шансах 41/100
+2026-06-29 15:54:18.491 [main] INFO  rogue.model.domain.entities.characters.Player - Посчитана вероятность удара и удар пропущен
+2026-06-29 15:54:18.491 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 11 при шансах 58/100
+2026-06-29 15:54:18.531 [main] INFO  rogue.model.domain.entities.characters.Player - Начата атака на монстра
+2026-06-29 15:54:18.531 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 86 при шансах 41/100
+2026-06-29 15:54:18.531 [main] INFO  rogue.model.domain.entities.characters.Player - Посчитана вероятность удара и удар пропущен
+2026-06-29 15:54:18.532 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 63 при шансах 58/100
+2026-06-29 15:54:18.571 [main] INFO  rogue.model.domain.entities.characters.Player - Начата атака на монстра
+2026-06-29 15:54:18.571 [main] INFO  rogue.model.domain.utils.CombatResolver - Выпало 20 при шансах 41/100
+2026-06-29 15:54:18.571 [main] INFO  rogue.model.domain.entities.characters.Player - Посчитана сила удара 93
+2026-06-29 15:54:18.571 [main] INFO  rogue.model.domain.entities.characters.Player - Удар нанесён. Здоровье монстра составляет -28.0
+2026-06-29 15:54:18.571 [main] INFO  rogue.model.domain.entities.characters.Player - Монстр убит class rogue.model.domain.entities.characters.communicators.Student
+2026-06-29 15:54:18.571 [main] INFO  rogue.model.domain.entities.characters.Player - Поднято 21 золота
+2026-06-29 15:54:21.998 [main] INFO  rogue.model.domain.entities.characters.Player - Поднят предмет Свиток календарных открытий
+2026-06-29 15:54:22.761 [main] INFO  rogue.model.domain.entities.Level - === Начало генерации уровня 4 ===
+2026-06-29 15:54:22.761 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 0
+2026-06-29 15:54:22.762 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 1
+2026-06-29 15:54:22.762 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 2
+2026-06-29 15:54:22.762 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 3
+2026-06-29 15:54:22.762 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 4
+2026-06-29 15:54:22.762 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 5
+2026-06-29 15:54:22.762 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 6
+2026-06-29 15:54:22.762 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 7
+2026-06-29 15:54:22.762 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 8
+2026-06-29 15:54:22.762 [main] INFO  rogue.model.domain.entities.passages.Passages - Начало генерации проходов
+2026-06-29 15:54:28.752 [main] INFO  rogue.model.domain.entities.characters.Player - Поднят предмет Неразборчивая, но приятная похвала
+2026-06-29 15:54:31.564 [main] INFO  rogue.model.domain.entities.Level - === Начало генерации уровня 5 ===
+2026-06-29 15:54:31.565 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 0
+2026-06-29 15:54:31.565 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 1
+2026-06-29 15:54:31.565 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 2
+2026-06-29 15:54:31.565 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 3
+2026-06-29 15:54:31.565 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 4
+2026-06-29 15:54:31.565 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 5
+2026-06-29 15:54:31.565 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 6
+2026-06-29 15:54:31.565 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 7
+2026-06-29 15:54:31.565 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 8
+2026-06-29 15:54:31.565 [main] INFO  rogue.model.domain.entities.passages.Passages - Начало генерации проходов
+2026-06-29 15:54:32.717 [main] INFO  rogue.model.domain.entities.Level - === Начало генерации уровня 6 ===
+2026-06-29 15:54:32.717 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 0
+2026-06-29 15:54:32.717 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 1
+2026-06-29 15:54:32.717 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 2
+2026-06-29 15:54:32.717 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 3
+2026-06-29 15:54:32.717 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 4
+2026-06-29 15:54:32.717 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 5
+2026-06-29 15:54:32.717 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 6
+2026-06-29 15:54:32.717 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 7
+2026-06-29 15:54:32.718 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 8
+2026-06-29 15:54:32.718 [main] INFO  rogue.model.domain.entities.passages.Passages - Начало генерации проходов
+2026-06-29 15:54:33.053 [main] INFO  rogue.model.domain.entities.Level - === Начало генерации уровня 7 ===
+2026-06-29 15:54:33.053 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 0
+2026-06-29 15:54:33.053 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 1
+2026-06-29 15:54:33.054 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 2
+2026-06-29 15:54:33.054 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 3
+2026-06-29 15:54:33.054 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 4
+2026-06-29 15:54:33.054 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 5
+2026-06-29 15:54:33.054 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 6
+2026-06-29 15:54:33.054 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 7
+2026-06-29 15:54:33.054 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 8
+2026-06-29 15:54:33.054 [main] INFO  rogue.model.domain.entities.passages.Passages - Начало генерации проходов
+2026-06-29 15:54:33.348 [main] INFO  rogue.model.domain.entities.Level - === Начало генерации уровня 8 ===
+2026-06-29 15:54:33.349 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 0
+2026-06-29 15:54:33.349 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 1
+2026-06-29 15:54:33.349 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 2
+2026-06-29 15:54:33.349 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 3
+2026-06-29 15:54:33.349 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 4
+2026-06-29 15:54:33.349 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 5
+2026-06-29 15:54:33.349 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 6
+2026-06-29 15:54:33.350 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 7
+2026-06-29 15:54:33.350 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 8
+2026-06-29 15:54:33.350 [main] INFO  rogue.model.domain.entities.passages.Passages - Начало генерации проходов
+2026-06-29 15:54:33.521 [main] INFO  rogue.model.domain.entities.Level - === Начало генерации уровня 9 ===
+2026-06-29 15:54:33.521 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 0
+2026-06-29 15:54:33.522 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 1
+2026-06-29 15:54:33.522 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 2
+2026-06-29 15:54:33.522 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 3
+2026-06-29 15:54:33.522 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 4
+2026-06-29 15:54:33.522 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 5
+2026-06-29 15:54:33.522 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 6
+2026-06-29 15:54:33.522 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 7
+2026-06-29 15:54:33.522 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 8
+2026-06-29 15:54:33.522 [main] INFO  rogue.model.domain.entities.passages.Passages - Начало генерации проходов
+2026-06-29 15:54:33.653 [main] INFO  rogue.model.domain.entities.Level - === Начало генерации уровня 10 ===
+2026-06-29 15:54:33.653 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 0
+2026-06-29 15:54:33.653 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 1
+2026-06-29 15:54:33.653 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 2
+2026-06-29 15:54:33.653 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 3
+2026-06-29 15:54:33.654 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 4
+2026-06-29 15:54:33.654 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 5
+2026-06-29 15:54:33.654 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 6
+2026-06-29 15:54:33.654 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 7
+2026-06-29 15:54:33.654 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 8
+2026-06-29 15:54:33.654 [main] INFO  rogue.model.domain.entities.passages.Passages - Начало генерации проходов
+2026-06-29 15:54:33.791 [main] INFO  rogue.model.domain.entities.Level - === Начало генерации уровня 11 ===
+2026-06-29 15:54:33.792 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 0
+2026-06-29 15:54:33.792 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 1
+2026-06-29 15:54:33.792 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 2
+2026-06-29 15:54:33.792 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 3
+2026-06-29 15:54:33.792 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 4
+2026-06-29 15:54:33.792 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 5
+2026-06-29 15:54:33.792 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 6
+2026-06-29 15:54:33.792 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 7
+2026-06-29 15:54:33.792 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 8
+2026-06-29 15:54:33.792 [main] INFO  rogue.model.domain.entities.passages.Passages - Начало генерации проходов
+2026-06-29 15:54:33.928 [main] INFO  rogue.model.domain.entities.Level - === Начало генерации уровня 12 ===
+2026-06-29 15:54:33.928 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 0
+2026-06-29 15:54:33.928 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 1
+2026-06-29 15:54:33.928 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 2
+2026-06-29 15:54:33.928 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 3
+2026-06-29 15:54:33.928 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 4
+2026-06-29 15:54:33.928 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 5
+2026-06-29 15:54:33.929 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 6
+2026-06-29 15:54:33.929 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 7
+2026-06-29 15:54:33.929 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 8
+2026-06-29 15:54:33.929 [main] INFO  rogue.model.domain.entities.passages.Passages - Начало генерации проходов
+2026-06-29 15:54:34.079 [main] INFO  rogue.model.domain.entities.Level - === Начало генерации уровня 13 ===
+2026-06-29 15:54:34.079 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 0
+2026-06-29 15:54:34.079 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 1
+2026-06-29 15:54:34.079 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 2
+2026-06-29 15:54:34.080 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 3
+2026-06-29 15:54:34.080 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 4
+2026-06-29 15:54:34.080 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 5
+2026-06-29 15:54:34.080 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 6
+2026-06-29 15:54:34.080 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 7
+2026-06-29 15:54:34.080 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 8
+2026-06-29 15:54:34.080 [main] INFO  rogue.model.domain.entities.passages.Passages - Начало генерации проходов
+2026-06-29 15:54:34.247 [main] INFO  rogue.model.domain.entities.Level - === Начало генерации уровня 14 ===
+2026-06-29 15:54:34.247 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 0
+2026-06-29 15:54:34.248 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 1
+2026-06-29 15:54:34.248 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 2
+2026-06-29 15:54:34.248 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 3
+2026-06-29 15:54:34.248 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 4
+2026-06-29 15:54:34.248 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 5
+2026-06-29 15:54:34.248 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 6
+2026-06-29 15:54:34.248 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 7
+2026-06-29 15:54:34.248 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 8
+2026-06-29 15:54:34.248 [main] INFO  rogue.model.domain.entities.passages.Passages - Начало генерации проходов
+2026-06-29 15:54:34.384 [main] INFO  rogue.model.domain.entities.Level - === Начало генерации уровня 15 ===
+2026-06-29 15:54:34.384 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 0
+2026-06-29 15:54:34.384 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 1
+2026-06-29 15:54:34.384 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 2
+2026-06-29 15:54:34.384 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 3
+2026-06-29 15:54:34.384 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 4
+2026-06-29 15:54:34.384 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 5
+2026-06-29 15:54:34.384 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 6
+2026-06-29 15:54:34.385 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 7
+2026-06-29 15:54:34.385 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 8
+2026-06-29 15:54:34.385 [main] INFO  rogue.model.domain.entities.passages.Passages - Начало генерации проходов
+2026-06-29 15:54:34.510 [main] INFO  rogue.model.domain.entities.Level - === Начало генерации уровня 16 ===
+2026-06-29 15:54:34.510 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 0
+2026-06-29 15:54:34.510 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 1
+2026-06-29 15:54:34.510 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 2
+2026-06-29 15:54:34.510 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 3
+2026-06-29 15:54:34.510 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 4
+2026-06-29 15:54:34.510 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 5
+2026-06-29 15:54:34.511 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 6
+2026-06-29 15:54:34.511 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 7
+2026-06-29 15:54:34.511 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 8
+2026-06-29 15:54:34.511 [main] INFO  rogue.model.domain.entities.passages.Passages - Начало генерации проходов
+2026-06-29 15:54:34.652 [main] INFO  rogue.model.domain.entities.Level - === Начало генерации уровня 17 ===
+2026-06-29 15:54:34.652 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 0
+2026-06-29 15:54:34.652 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 1
+2026-06-29 15:54:34.652 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 2
+2026-06-29 15:54:34.652 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 3
+2026-06-29 15:54:34.652 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 4
+2026-06-29 15:54:34.652 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 5
+2026-06-29 15:54:34.652 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 6
+2026-06-29 15:54:34.652 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 7
+2026-06-29 15:54:34.652 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 8
+2026-06-29 15:54:34.652 [main] INFO  rogue.model.domain.entities.passages.Passages - Начало генерации проходов
+2026-06-29 15:54:34.785 [main] INFO  rogue.model.domain.entities.Level - === Начало генерации уровня 18 ===
+2026-06-29 15:54:34.785 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 0
+2026-06-29 15:54:34.785 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 1
+2026-06-29 15:54:34.785 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 2
+2026-06-29 15:54:34.785 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 3
+2026-06-29 15:54:34.785 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 4
+2026-06-29 15:54:34.785 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 5
+2026-06-29 15:54:34.785 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 6
+2026-06-29 15:54:34.785 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 7
+2026-06-29 15:54:34.785 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 8
+2026-06-29 15:54:34.786 [main] INFO  rogue.model.domain.entities.passages.Passages - Начало генерации проходов
+2026-06-29 15:54:34.921 [main] INFO  rogue.model.domain.entities.Level - === Начало генерации уровня 19 ===
+2026-06-29 15:54:34.921 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 0
+2026-06-29 15:54:34.921 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 1
+2026-06-29 15:54:34.921 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 2
+2026-06-29 15:54:34.921 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 3
+2026-06-29 15:54:34.921 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 4
+2026-06-29 15:54:34.921 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 5
+2026-06-29 15:54:34.921 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 6
+2026-06-29 15:54:34.921 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 7
+2026-06-29 15:54:34.921 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 8
+2026-06-29 15:54:34.921 [main] INFO  rogue.model.domain.entities.passages.Passages - Начало генерации проходов
+2026-06-29 15:54:35.042 [main] INFO  rogue.model.domain.entities.Level - === Начало генерации уровня 20 ===
+2026-06-29 15:54:35.042 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 0
+2026-06-29 15:54:35.042 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 1
+2026-06-29 15:54:35.042 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 2
+2026-06-29 15:54:35.043 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 3
+2026-06-29 15:54:35.043 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 4
+2026-06-29 15:54:35.043 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 5
+2026-06-29 15:54:35.043 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 6
+2026-06-29 15:54:35.043 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 7
+2026-06-29 15:54:35.043 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 8
+2026-06-29 15:54:35.043 [main] INFO  rogue.model.domain.entities.passages.Passages - Начало генерации проходов
+2026-06-29 15:54:35.178 [main] INFO  rogue.model.domain.entities.Level - === Начало генерации уровня 21 ===
+2026-06-29 15:54:35.178 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 0
+2026-06-29 15:54:35.178 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 1
+2026-06-29 15:54:35.179 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 2
+2026-06-29 15:54:35.179 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 3
+2026-06-29 15:54:35.179 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 4
+2026-06-29 15:54:35.179 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 5
+2026-06-29 15:54:35.179 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 6
+2026-06-29 15:54:35.179 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 7
+2026-06-29 15:54:35.179 [main] INFO  rogue.model.domain.entities.Room - Генерация комнаты 8
+2026-06-29 15:54:35.179 [main] INFO  rogue.model.domain.entities.passages.Passages - Начало генерации проходов
+2026-06-29 15:54:35.304 [main] INFO  rogue.controller.Controller - Player won

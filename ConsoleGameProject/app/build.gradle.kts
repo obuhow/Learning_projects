@@ -7,7 +7,8 @@
 
 plugins {
     // Apply the application plugin to add support for building a CLI application in Java.
-    application
+    id("application")
+    id("com.github.johnrengelman.shadow") version "8.1.1"
 }
 
 repositories {
@@ -22,8 +23,17 @@ dependencies {
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 
     implementation("com.googlecode.lanterna:lanterna:3.1.2")
+    implementation("com.googlecode.json-simple:json-simple:1.1.1")
     // This dependency is used by the application.
     implementation(libs.guava)
+    implementation("org.slf4j:slf4j-api:2.0.16")
+    implementation("org.apache.logging.log4j:log4j-slf4j2-impl:2.24.3")
+    implementation("org.apache.logging.log4j:log4j-core:2.24.3")
+
+    // Lombok
+    compileOnly("org.projectlombok:lombok:1.18.36")
+    annotationProcessor("org.projectlombok:lombok:1.18.36")
+
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
@@ -41,4 +51,12 @@ application {
 tasks.named<Test>("test") {
     // Use JUnit Platform for unit tests.
     useJUnitPlatform()
+}
+
+tasks.named<Jar>("shadowJar") {
+    archiveBaseName.set("rogue")
+    archiveVersion.set("1.0")
+    manifest {
+        attributes("Main-Class" to "rogue.controller.Controller")
+    }
 }
