@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello World на Vue.js</title>
+    <script src="http://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+    <div id="app">
+        <h1>{{ message }}</h1>
+        <button @click="sayHello">Click me</button>
+    </div>
+
+    <script>
+        const { createApp, ref } = Vue;
+
+        createApp({
+            setup() {
+                const message = ref('Hello World!');
+                const sayHello = () => {
+                    message.value = 'Привет, мир Vue!';
+                };
+                return { message, sayHello };
+            }
+        }).mount('#app');
+    </script>
+</body>
+</html>
